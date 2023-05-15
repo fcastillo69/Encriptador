@@ -1,0 +1,91 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background: green;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    background: blue;
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background: red;
+}
+
+.izq{
+    float: left;
+    width: 70%;
+    height: autp;
+    border-radius: 24px;
+    background: yellow;
+}
+
+.der{
+    float: right;
+    width: 30%;
+    height: autp;
+    border-radius: 24px;
+    background: orange;
+}
+
+.botoneraizq{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: pink;
+}
+
+.imagLogo{
+    margin-top: 1%;
+    margin-left: 3%;
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+}
+
+.input-text{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+#out-text{
+    float: left;
+    margin: 8%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+#btn-encriptar{
+    padding: 14px;
+    width: 30%;
+    height: 60%;
+    margin-left: 15%;
+    background: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+#btn-desencriptar{
+    padding: 14px;
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+    background: red;
+    border-radius: 15px;
+    color: white;
+}

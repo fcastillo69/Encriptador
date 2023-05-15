@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img class="imagLogo" src="/imagenes/logo-aluraespanhol.svg" alt="logo alura latam">
+                <h1 class="titulo">Encriptador</h1>
+            </div>
+            <div class="izq">
+                <textarea class="input-text" name="input-text" id="input-text" cols="30" rows="10" placeholder="Escriba un texto en minusculas y sin acentos"></textarea>
+            </div>
+            <div class="der">
+                <textarea class="out-text" name="out-text" id="out-text" cols="30" rows="10" placeholder="No se ha ingresado ningun texto"></textarea>
+    
+            </div>
+            <div class="botoneraizq">
+                <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+    </main>
+    <script src="encriptar.js"></script>
+</body>
+</html>
