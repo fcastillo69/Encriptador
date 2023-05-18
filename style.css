@@ -48,6 +48,13 @@ body{
     float: inherit;
 }
 
+.imagLogo_der{
+    margin-top: 1%;
+    margin-left: 43%;
+    float: inherit;
+    width: 5%;
+}
+
 .titulo{
     float: inherit;
     margin-left: 20%;
