@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    padding: 0px;
+    padding: 1px;
     background: green;
 }
 
@@ -8,20 +8,45 @@ body{
     margin: auto;
     width: 960px;
     height: 650px;
+    padding: 1px;
     background: blue;
 
 }
 
 .logo{
     width: 100%;
-    float: left;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /*margin: auto;*/
+    padding: 1%;
     background: red;
 }
+
+.imagLogo{
+    margin-top: 0%;
+    margin-left: 1%;
+    float: inherit;
+}
+
+h1{
+    text-align: center;
+    display: inline-block;
+}
+
+.imagLogo_der{
+    margin-top: 1%;
+    margin-right: 3%;
+    float: right;
+    width: 5%;
+}
+
+
 
 .izq{
     float: left;
     width: 70%;
-    height: autp;
+    height: auto;
     border-radius: 24px;
     background: yellow;
 }
@@ -42,22 +67,12 @@ body{
     background: pink;
 }
 
-.imagLogo{
-    margin-top: 1%;
-    margin-left: 3%;
-    float: inherit;
-}
 
-.imagLogo_der{
-    margin-top: 1%;
-    margin-left: 43%;
-    float: inherit;
-    width: 5%;
-}
 
 .titulo{
+    display: inline-block;
     float: inherit;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 
 .input-text{
